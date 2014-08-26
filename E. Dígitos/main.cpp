@@ -1,37 +1,23 @@
-#include <iostream>
 #include <string>
-#include <sstream>
 #include <cstdio>
+#include <sstream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
     int num; scanf("%d", &num);
-    ostringstream convert;
-    convert << num;
-    string aux = convert.str();
-    string str;
-    for(int i = 1; i <= num; i++)
-    {
-        ostringstream conv;
-        conv << i;
-        str += conv.str();
-    }
+    stringstream temp;
 
-    bool control = true;
-    unsigned long long i = 0;
-    int len = aux.size();
+    temp << num;
+    string aux = temp.str();
 
-    while(control)
-    {
-        string help;
-        for(int j = i; j < i+len; j++)
-            help += str[j];
-        if(help == aux)
-            control = false;
-        i++;
-    }
-    printf("%lld", i);
+    stringstream buff;
+    for(int i = 0; i <= num; i++)
+        buff << i;
+    string str = buff.str();
+
+    printf("%d", str.find(aux));
 
     return 0;
 }
