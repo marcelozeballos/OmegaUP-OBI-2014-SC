@@ -31,4 +31,6 @@ int main()
 
     }
     printf("%c", help);
+
+    return 0;
 }
