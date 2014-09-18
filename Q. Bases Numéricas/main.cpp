@@ -1,3 +1,5 @@
+//NUMBER BASES. TRICKY IN EXTREME
+
 #include <cstdio>
 using namespace std;
 

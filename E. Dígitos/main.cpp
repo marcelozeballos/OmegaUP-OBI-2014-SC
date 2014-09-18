@@ -1,3 +1,6 @@
+// FIND A NUMBER IN A SEQUENCE.
+// MEMORY ISSUE IF NOT APPLIED LIKE THIS
+
 #include <string>
 #include <cstdio>
 #include <sstream>

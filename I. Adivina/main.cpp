@@ -1,3 +1,5 @@
+// PROBAR SI UNA ESTRUCTURA ES PILA, COLA, O COLA DE PRIORIDAD
+
 #include <cstdio>
 #include <stack>
 #include <queue>

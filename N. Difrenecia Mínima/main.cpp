@@ -1,3 +1,5 @@
+// MINIMUM DIFFERENCE IN AN ARRAY. TRICKY AS WELL
+
 #include <cstdio>
 #include <algorithm>
 using namespace std;
